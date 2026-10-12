@@ -31,6 +31,10 @@ Streamlit prints a local URL, usually `http://localhost:8501`.
 
 ## Public portfolio demo
 
+**Hosted demo:** https://huzaifa-sentinel-soc.streamlit.app/
+
+**Source code:** https://github.com/HuzaifaQuaid/mini-soc-dashboard
+
 The separate `public_app.py` entry point disables log uploads and uses only synthetic events. Analyst statuses and notes live in Streamlit session state, not SQLite, and are separate for each visitor session. They can reset on reload or restart. Do not enter sensitive information; exported CSV files include practice notes.
 
 ```bash
